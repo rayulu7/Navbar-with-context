@@ -1,0 +1,51 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-home-dark {
+  background-color: #000000;
+}
+
+.bg-home-light {
+  background-color: #ffffff;
+}
+
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image {
+  height: 124px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.text-home-light {
+  color: #ffffff;
+}
+
+.text-home-dark {
+  color: #1e293b;
+}
